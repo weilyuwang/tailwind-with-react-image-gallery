@@ -28,3 +28,11 @@ npx tailwindcss init -p
 @tailwind components;
 @tailwind utilities;
 ```
+
+
+### Set up npm build command
+
+```
+"start": "npm run watch:css && react-scripts start",
+"watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+```
