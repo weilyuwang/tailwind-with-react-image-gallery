@@ -36,3 +36,16 @@ npx tailwindcss init -p
 "start": "npm run watch:css && react-scripts start",
 "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
 ```
+
+
+### Import compiled css file into index.js
+
+```
+import "./assets/main.css";
+```
+
+### Start App
+
+```
+npm start
+```
