@@ -115,8 +115,12 @@ module.exports = {
 For this simple React application, purgecss reduces ~290KB css file size: `1.94 KB (-293.71 KB)  build/static/css/main.ab16f177.chunk.css`
 
 
-### Start App
+### Start App (Local Dev)
 
 ```
 npm start
 ```
+
+### Live 
+
+- Deployed with Firebase Hosting: https://react-tailwind-image-gallery.web.app/
